@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="PrismTabbedPageSample.Views.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:module="clr-namespace:Module1.Views;assembly=Module1"
+    xmlns:views="clr-namespace:PrismTabbedPageSample.Views"
+    Title="{Binding Title}">
+
+    <ContentPage Title="Test" />
+    <views:Page1 />
+    <module:MPage1 Title="HIER" />
+</TabbedPage>

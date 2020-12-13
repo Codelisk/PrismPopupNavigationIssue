@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage
+    x:Class="Module1.Views.MPopup"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="http://rotorgames.com"
+    xmlns:prism="http://prismlibrary.com"
+    prism:ViewModelLocator.AutowireViewModel="True">
+    <pages:PopupPage.Content>
+        <Frame Margin="30" BackgroundColor="White">
+            <StackLayout>
+                <Label
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Welcome to Xamarin.Forms!"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </Frame>
+    </pages:PopupPage.Content>
+</pages:PopupPage>
