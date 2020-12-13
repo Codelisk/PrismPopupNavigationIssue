@@ -7,7 +7,7 @@
     xmlns:views="clr-namespace:PrismTabbedPageSample.Views"
     Title="{Binding Title}">
 
-    <ContentPage Title="Test" />
-    <views:Page1 />
-    <module:MPage1 Title="HIER" />
+    <ContentPage Title="Irrelevant" />
+    <views:Page1 Title="Irrelevant" />
+    <module:MPage1 Title="Press Here" />
 </TabbedPage>
